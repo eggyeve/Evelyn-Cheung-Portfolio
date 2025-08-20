@@ -100,6 +100,12 @@ nav ul li a{
     color:#b24608 ;
     font-weight: 100;
     margin-top:150px ;
+    margin-bottom: 40px;
+}
+.title-2 h3{
+    font-size: 30px;
+    color:#b2460880 ;
+    font-weight: 100;
     margin-bottom: 50px;
 }
 .title-3{
@@ -107,8 +113,8 @@ nav ul li a{
     display: flex;
 }
 .title-3 h1{
-    font-size: 50px;
-    color:#b24608 ;
+    font-size: 40px;
+    color:#b2460880 ;
     font-weight: 100;
     margin-top:150px ;
     margin-bottom: 50px;
@@ -118,7 +124,7 @@ margin-top: 120px;
 margin-left: 20px;
 }
 
-.about-speechbubble{
+/* .about-speechbubble{
     align-items: center;
     justify-content: center;
     background-color: #fff7e0;
@@ -131,7 +137,19 @@ margin-left: 20px;
     min-width: 100px;
     padding: 50px;
     border-radius: 30px;
+} */
+.about-speechbubble{
+        background-color: #fff7e0;
+        letter-spacing: 4px;
+        margin: 30px auto; /* top/bottom margin, and auto centers it horizontally */
+        padding: 50px;
+        border-radius: 30px;
+    
+        min-width: 100px;
+        max-width: 800px; /* prevents it from stretching too wide */
+        width: 90%; /* makes it responsive on smaller screens */
 }
+
 .about-speechbubble h1{
     font-size: 50px;
     color:#b2460880 ;
@@ -152,8 +170,14 @@ margin-left: 20px;
     color:#b24608 ;
     font-weight: 100;
     transition: 0.5s;
-    text-align: center;
     list-style-type: none;
+    line-height: 50px;
+}
+.about-speechbubble p{
+    font-size: 30px;
+    color:#b2460880 ;
+    font-weight: 100;
+    transition: 0.5s;
     line-height: 50px;
 }
 .about-highlight{
@@ -182,16 +206,16 @@ margin-left: 20px;
     width: 100%;
     margin-top:50px ;
     margin-bottom: 50px;
-    border-radius: 30px;
-    box-shadow: #b24608 3px 3px 20px;
+    border-radius: 20px;
+    box-shadow: #fff7e0 3px 3px 30px;
 }
 .vfx-showreel{
     aspect-ratio: 16/9;
     width: 100%;       
     margin-top:50px ;
     margin-bottom: 50px;
-    border-radius: 30px;
-    box-shadow: #b24608 3px 3px 20px;
+    border-radius: 20px;
+    box-shadow: #fff7e0 3px 3px 30px;
 }
 
 .overlay{
@@ -363,9 +387,10 @@ footer a{
     display: none;
 }
 .title-1 h1{
-    font-size: 100px;
+    font-size: 110px;
     color:#ffffff ;
     font-weight: 100;
+    line-height: 95px;
     transition: 0.5s;
 }
 .title-1 h2{
@@ -375,22 +400,25 @@ footer a{
     transition: 0.5s;
 }
 .title-1 h3{
-    font-size: 25px;
+    font-size: 22px;
     color:#ffffff ;
     font-weight: 100;
     transition: 0.5s;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.showreel-background{
-    position: absolute;
-    bottom: 0;
+ .showreel-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
     z-index: -1;
-    min-height: 105%;
-    background-position: center;
+    object-fit: cover;
 }
 .about-speechbubble{
     align-items: center;
@@ -399,7 +427,6 @@ footer a{
     letter-spacing: 4px;
     margin-top:30px;
     margin-bottom:30px ;
-
     padding: 50px;
     border-radius: 30px;
 }
@@ -423,9 +450,18 @@ footer a{
     color:#b24608 ;
     font-weight: 100;
     transition: 0.5s;
-    text-align: center;
-    list-style-type: none;
+
+    list-style-type: square;
     line-height: 30px;
+}
+.about-speechbubble p{
+    font-size: 20px;
+    color:#b2460880 ;
+    font-weight: 100;
+    transition: 0.5s;
+    line-height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
   .column {
     width: 100%;

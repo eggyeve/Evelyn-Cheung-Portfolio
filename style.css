@@ -7,6 +7,12 @@
     font-family: "Jersey 15", sans-serif;
     color: #ffc866;
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+} 
 body{
     background-color: #ffc866; 
 }
@@ -153,13 +159,23 @@ margin-left: 20px;
 .about-highlight{
     color:#b24608 ;
 }
-.showreel-background{
+/* .showreel-background{
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
     min-width: 100%;
     min-height: 105%;
+} */
+ .showreel-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
 }
 .character-showreel{
     aspect-ratio: 16/9;
@@ -359,7 +375,7 @@ footer a{
     transition: 0.5s;
 }
 .title-1 h3{
-    font-size: 30px;
+    font-size: 25px;
     color:#ffffff ;
     font-weight: 100;
     transition: 0.5s;
@@ -371,10 +387,10 @@ footer a{
 
 .showreel-background{
     position: absolute;
-    right: -500px;
     bottom: 0;
     z-index: -1;
     min-height: 105%;
+    background-position: center;
 }
 .about-speechbubble{
     align-items: center;

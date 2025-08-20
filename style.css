@@ -329,6 +329,7 @@ footer {
   background-color: #b2460880;
   height: 500px;
   padding: 10px;
+  margin-top: 100px;
   text-align: center;
   color: #fff7e0;
 }
@@ -337,7 +338,8 @@ footer p{
     font-size: 30px;
 }
 footer a{
-    width: 50px
+    width: 50px;
+    height: 50px;
 }
 @media (max-width:1190px){
 

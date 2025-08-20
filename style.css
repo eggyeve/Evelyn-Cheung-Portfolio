@@ -336,7 +336,9 @@ footer p{
     padding: 20px;
     font-size: 30px;
 }
-
+footer a{
+    width: 50px
+}
 @media (max-width:1190px){
 
 .hideonmobile{

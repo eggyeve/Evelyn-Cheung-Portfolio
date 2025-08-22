@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <!-- <base href="/Evelyn-Cheung-Portfolio/"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c9f083afe7.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/Penguin_jump.gif">
+    <title> Home | Evelyn Cheung </title>
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted playsinline class="showreel-background">
+            <source src="assets/showreel-background for web.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <img src="assets/Penguin_jump.gif" class="logo">
+            <ul>
+                <li class="hideonmobile"><a href="index.html">HOME</a></li>
+                <li class="hideonmobile"><a href="about.html">ABOUT</a></li>
+                <li class="hideonmobile"><a href="projects.html">PROJECTS</a></li>
+                <li class="hideonmobile"><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="navbar-phone">
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="index.html">HOME</a>
+                        <a href="about.html">ABOUT</a>
+                        <a href="projects.html">PROJECTS</a>
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+                </div>
+
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+                <script>
+
+                    function openNav() {
+                    document.getElementById("myNav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                    document.getElementById("myNav").style.width = "0%";
+                    }
+                </script>
+        </div>
+        </nav>
+        
+        <div class="title-1">
+            <h1>Evelyn Cheung</h1>
+            <h2>Character / VFX Animator</h2>
+            <h3>&#8595 &#8595 Showreels &#8595 &#8595</h3>
+        </div>
+    </div>
+
+    <div class="project-about">
+        <iframe class="project-video" src="https://www.youtube.com/embed/16G4wvnU4YI?si=BnEnDOmnqkLyWHxG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe class="project-video" src="https://www.youtube.com/embed/g1MrIsgCfXM?si=eWJqwYUNz-6PNa6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+<footer>
+    <p>Check out my socials</p>
+    <a href="https://www.linkedin.com/in/evelyn-cheung-nw/"><i class="fa-brands fa-linkedin" style="color: #ffc866;"></i></a>
+    <a href="https://www.instagram.com/eggy_eve/"><i class="fa-brands fa-instagram" style="color: #ffc866;"></i></a>
+    <a href="mailto:evelyncheung5030@gmail.com"><i class="fa-solid fa-envelope" style="color: #ffc866;"></i></a>
+</footer>
+</body>
+</html>

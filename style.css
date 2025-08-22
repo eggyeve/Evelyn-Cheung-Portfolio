@@ -8,6 +8,7 @@
     color: #ffc866;
 }
 
+
 html, body {
     margin: 0;
     padding: 0;
@@ -54,7 +55,7 @@ nav ul li {
 nav ul li :hover {
     -webkit-text-stroke: 0.5px #ffffff;
     color: transparent;
-    text-decoration: underline;
+
 }
 
 nav ul li a {
@@ -65,7 +66,22 @@ nav ul li a {
     font-weight: 100;
     transition: 0.5s;
 }
-
+.title-main {
+    text-align: center;
+}
+.title-main h1 {
+    font-size: 50px;
+    color:#b24608 ;
+    font-weight: 100;
+    margin-top:150px ;
+    margin-bottom: 20px;
+}
+.title-main h3 {
+    font-size: 30px;
+    color:#b2460880 ;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
 .title-1 {
     text-align: center;
 }
@@ -100,7 +116,7 @@ nav ul li a {
     font-size: 50px;
     color:#b24608 ;
     font-weight: 100;
-    margin-top:100px ;
+    margin-top:20px ;
     margin-bottom: 20px;
 }
 .title-2 h3 {
@@ -141,45 +157,55 @@ margin-left: 20px;
 } */
 .about-speechbubble {
         background-color: #fff7e0;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
         margin: 30px auto; /* top/bottom margin, and auto centers it horizontally */
         padding: 50px;
         border-radius: 30px;
-    
         min-width: 100px;
         max-width: 800px; /* prevents it from stretching too wide */
         width: 90%; /* makes it responsive on smaller screens */
 }
 
 .about-speechbubble h1 {
-    font-size: 50px;
+    font-size: 45px;
     color:#b2460880 ;
     font-weight: 100;
     transition: 0.5s;
     text-align: center;
-    line-height: 70px;
+    line-height: 55px;
+    text-align: center;
 }
 .about-speechbubble h2 {
+    font-size: 25px;
+    color:#b2460880 ;
+    font-weight: 100;
+    transition: 0.5s;
+    line-height: 35px;
+}
+.about-speechbubble h3 {
     font-size: 30px;
     color:#b2460880 ;
     font-weight: 100;
     transition: 0.5s;
-    line-height: 50px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .about-speechbubble li {
-    font-size: 30px;
+    font-size: 25px;
     color:#b24608 ;
     font-weight: 100;
     transition: 0.5s;
     list-style-type: none;
-    line-height: 50px;
+    line-height: 35px;
 }
 .about-speechbubble p {
-    font-size: 30px;
+    font-size: 25px;
     color:#b2460880 ;
     font-weight: 100;
     transition: 0.5s;
-    line-height: 50px;
+    line-height: 35px;
 }
 .about-highlight {
     color:#b24608 ;
@@ -213,7 +239,7 @@ margin-left: 20px;
     border-radius: 20px;
     width: 100;
     aspect-ratio: 16/9;
-    max-width: 1100px;
+    max-width: 1000px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -262,6 +288,12 @@ margin-left: 20px;
 }
 .navbar-phone span {
     color: #ffffff;
+}
+.content {
+    border-radius: 20px;
+}
+.content :hover {
+    transform: scale(0.95);
 }
 .content h3 {
   font-size: 30px;
@@ -418,7 +450,7 @@ margin-left: 20px;
 }
 
 footer {
-  background-color: #b2460880;
+  background-color: #d9883ceb;
   height: 500px;
   padding: 10px;
   margin-top: 100px;
@@ -499,6 +531,16 @@ footer a {
     line-height: 20px;
     letter-spacing: 2px;
 }
+.about-speechbubble h3 {
+    font-size: 25px;
+    color:#b2460880 ;
+    font-weight: 100;
+    transition: 0.5s;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .about-speechbubble li {
     font-size: 20px;
     color:#b24608 ;
@@ -523,6 +565,25 @@ footer a {
 }
 .column-2 {
     width: 100%;
+}
+.content {
+    border-radius: 20px;
+}
+.content :hover {
+    transform: scale(0.95);
+}
+.content h3 {
+  font-size: 20px;
+  color: #b24608;
+  letter-spacing: 4px;
+  line-height: 40px;
+  word-break: break-all;
+}
+.content p {
+  font-size: 15px;
+  color: #b2460880;
+  letter-spacing: 4px;
+  word-break: break-all;
 }
 }
 

@@ -460,6 +460,7 @@ footer p {
     color: #ffe1ae;
     font-size: 30px;
     padding: 50px;
+    padding-bottom: 20px;
     font-size: 30px;
     letter-spacing: 4px;
 }
@@ -610,7 +611,51 @@ footer ul li :hover {
   word-break: break-all;
 }
 }
+footer {
+  background-color: #d9883ceb;
+  height: 500px;
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+  color: #fff7e0;
+}
+footer p {
+    color: #ffe1ae;
+    font-size: 30px;
+    padding: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+footer a {
+    color: #ffc766;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+footer h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffc766;
+    font-size: 15px;
+    padding: 50px;
+    text-decoration: none;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+footer ul {
+    padding-right: 40px;
+}
 
+footer ul li :hover {
+    -webkit-text-stroke: 0.5px #ffc766;
+    color: transparent;
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {

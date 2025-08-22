@@ -289,7 +289,7 @@ margin-left: 20px;
 .navbar-phone span {
     color: #ffffff;
 }
-.content {
+.content a img {
     border-radius: 20px;
 }
 .content :hover {

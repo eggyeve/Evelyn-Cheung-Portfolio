@@ -526,12 +526,12 @@ footer ul li :hover {
     transition: 0.5s;
 }
 .title-1 h3 {
-    font-size: 22px;
+    font-size: 35px;
     color:#ffffff ;
     font-weight: 100;
     transition: 0.5s;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
